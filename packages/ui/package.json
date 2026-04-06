@@ -1,0 +1,14 @@
+{
+  "name": "@coreforge/ui",
+  "version": "0.1.0",
+  "main": "src/index.tsx",
+  "types": "src/index.tsx",
+  "peerDependencies": {
+    "react": "^19.0.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "echo 'lint ui'"
+  }
+}

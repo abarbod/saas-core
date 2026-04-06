@@ -1,0 +1,19 @@
+{
+  "name": "@coreforge/cli",
+  "version": "0.1.0",
+  "private": true,
+  "bin": {
+    "coreforge": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "ts-node src/index.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "echo 'lint cli'"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
