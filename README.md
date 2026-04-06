@@ -1,6 +1,6 @@
-# CoreForge
+# SAAS-Core
 
-CoreForge is an open-source AI-ready SaaS Core / SaaS Operating System for building production-grade SaaS products with a clear NestJS + Next.js architecture.
+SAAS-Core is an open-source AI-ready SaaS Core / SaaS Operating System for building production-grade SaaS products with a clear NestJS + Next.js architecture.
 
 ## Who it is for
 - Teams building serious multi-tenant B2B SaaS
@@ -8,7 +8,7 @@ CoreForge is an open-source AI-ready SaaS Core / SaaS Operating System for build
 - ERP-lite/internal-tool/workflow platform builders
 
 ## Why it exists
-Most starters are either toy demos or over-engineered platforms. CoreForge provides an opinionated, modular-monolith baseline with explicit boundaries and production-oriented defaults.
+Most starters are either toy demos or over-engineered platforms. SAAS-Core provides an opinionated, modular-monolith baseline with explicit boundaries and production-oriented defaults.
 
 ## Stack
 - Monorepo: pnpm + Turbo
@@ -40,8 +40,8 @@ Most starters are either toy demos or over-engineered platforms. CoreForge provi
    - REDIS_HOST/REDIS_PORT
 3. Run DB setup:
    ```bash
-   pnpm --filter @coreforge/api prisma:generate
-   pnpm --filter @coreforge/api prisma:migrate
+   pnpm --filter @saasCore/api prisma:generate
+   pnpm --filter @saasCore/api prisma:migrate
    ```
 4. Start development:
    ```bash
