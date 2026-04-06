@@ -1,0 +1,26 @@
+{
+  "name": "@coreforge/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "echo 'no tests yet'"
+  },
+  "dependencies": {
+    "@coreforge/sdk": "workspace:*",
+    "@coreforge/types": "workspace:*",
+    "@coreforge/ui": "workspace:*",
+    "next": "15.0.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "@types/react": "^19.0.0",
+    "typescript": "^5.6.3"
+  }
+}
